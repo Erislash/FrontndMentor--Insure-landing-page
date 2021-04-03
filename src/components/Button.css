@@ -22,3 +22,9 @@
     width: 80%;
     max-width: 300px;
 }
+
+.btn--small {
+    width: 60%;
+    max-width: 300px;
+    font-size: .8rem;
+}

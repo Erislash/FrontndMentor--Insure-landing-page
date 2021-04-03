@@ -1,0 +1,13 @@
+.Feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.Feature__icon {
+    width: 25%;
+    max-width: 80px;
+    margin-bottom: 1.3rem;
+}

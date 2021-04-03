@@ -1,0 +1,19 @@
+.Features {
+    padding: 1rem;
+}
+
+hr{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+}
+
+.Features__title {
+    font-family: var(--heading-font);
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,22 @@
+.FooterLinkSet{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.FooterLinkSet__header {
+    color: var(--dark-Grayish-Violet);
+    margin-bottom: 2rem;
+    font-size: .9rem;
+}
+
+.FooterLinkSet li a {
+    display: block;
+    text-decoration: none;
+    color: var(--dark-Violet);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}

@@ -6,8 +6,8 @@
 
     --min-width-mobile: 768px;
 
-    --heading-font: 'DM Serif Display', serif;
-    --body-font: 'Karla', serif;
+    --heading-font: 'DM Serif Display', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --body-font: 'Karla', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     --dark-Violet: hsl(256, 26%, 20%);
     --grayish-Blue: hsl(216, 30%, 68%);
@@ -30,4 +30,9 @@ html{
 body {
     height: 100%;
     font-family: var(--body-font);
+    background-color: #fff;
+}
+
+img{
+    vertical-align: middle;
 }

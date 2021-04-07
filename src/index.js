@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './components/Navbar';
 import Menu from './components/Menu';
@@ -9,14 +9,24 @@ import Footer from './components/Footer';
 
 import './index.css';
 
+
+export default function App() {
+  const [menuActive, setMenu] = useState(true);
+  return (
+    <div>
+      <Navbar currentMenu={menuActive} setMenu={setMenu}/>
+      {menuActive && <Menu />}
+      <Hero />
+      <Features />
+      <LearnMore />
+      <Footer />
+    </div>
+  )
+}
+
+
+
 ReactDOM.render(
-  <React.StrictMode>
-    <Navbar />
-    <Menu />
-    <Hero />
-    <Features />
-    <LearnMore />
-    <Footer />
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );

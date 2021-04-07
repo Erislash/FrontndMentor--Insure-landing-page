@@ -1,7 +1,11 @@
 .Navbar {
+    position: fixed;
+    z-index: 500;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
+    width: 100%;
+    background-color: #fff;
     height: 10vh;
 }

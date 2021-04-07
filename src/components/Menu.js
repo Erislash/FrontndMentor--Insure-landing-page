@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Button from './Button';
 import './Menu.css';
 
 
-export default function Menu() {
+export default function Menu({menuActive}) {
     return (
-        <ul className='Menu' style={
+        <ul className={`Menu ${menuActive ? 'active' : ''}`} style={
             {backgroundImage:'url(./images/bg-pattern-mobile-nav.svg)'}
             }>
             <li className="Menu__link">How we work</li>
